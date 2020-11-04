@@ -1,6 +1,5 @@
 # Javascript
 
-Tugas Javascript
 Folder Week 1 berisi tugas javascript mengenai :
 
 - Data Types
@@ -22,7 +21,7 @@ Folder Week 2 berisi tugas javascript mengenai :
 - Async Await
 - Try Catch
 
-Folder Week 3 berisi tugas mengenai :
+Folder Week 3 berisi tugas javascript mengenai :
 
 - Palindrom 
 - Reverse Words
