@@ -1,18 +1,19 @@
-let str = 10001
-let newString = '';
+let str = "malam";
+let string = '';
 if (typeof str === 'number') {
-    str = str.toString()
+    str = str.toString();
     for (let i = str.length - 1; i >= 0; i--) {
-      newString += str[i]
+      string += str[i];
     }
 } else {
+    str = str.toLocaleLowerCase();
     for (let i = str.length - 1; i >= 0; i--) {
-      newString += str[i]
+      string += str[i];
     }
 }
-let reverseText = newString
+let reverseText = string;
 if (str === reverseText) {
-  console.log('Palindrom')
+  console.log('Palindrom');
 } else {
-  console.log('Bukan Palindrom')
+  console.log('Bukan Palindrom');
 }
